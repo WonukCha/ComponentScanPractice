@@ -1,11 +1,11 @@
-package wonuk.practice.componentscanpractice.myInterface
+package wonuk.practice.componentscanpractice.fruitHandler
 
 
 enum class Fruit {
     APPLE,
     BANANA,
 }
-interface MyInterface {
+interface FruitHandler {
     val type: Fruit
     fun foo()
 }
